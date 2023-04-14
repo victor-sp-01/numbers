@@ -143,7 +143,7 @@ export default OpcGenerate
 
                 return(`
                     <form class="form__tjs6q" autocomplete off >
-                        <input type="text" class="input__bHvkr" value="${ limitRange }" placeholder="limite de rango" >
+                        <input type="number" class="input__bHvkr" value="${ limitRange }" placeholder="limite de rango" >
                         <div class="div__yJgoV">
                             <button type="button" class="button__Gzm4F" ><i class="fa-solid fa-caret-left"></i></button>
                             <button type="button" class="button__Gzm4F" ><i class="fa-solid fa-check"></i></button>
@@ -165,7 +165,7 @@ export default OpcGenerate
 
                 return (`
                     <form class="form__tjs6q" autocomplete off >
-                        <input type="text" class="input__bHvkr" value="${ limitCasillas }" placeholder="limite de casillas" >
+                        <input type="number" class="input__bHvkr" value="${ limitCasillas }" placeholder="limite de casillas" >
                         <div class="div__yJgoV">
                             <button type="button" class="button__Gzm4F" ><i class="fa-solid fa-caret-left"></i></button>
                             <button type="button" class="button__Gzm4F" ><i class="fa-solid fa-check"></i></button>
