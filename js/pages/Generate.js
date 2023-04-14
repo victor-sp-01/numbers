@@ -54,7 +54,8 @@ const Generate =()=>{
  
     }
 
-    const numInterval =()=>{  
+    const numInterval =()=>{
+        clearTimes()  
         Data.btnPlay = false
         Data.number = [ ...Array( Data.lengthNumber + 1 ).keys() ].filter( i => ( !Data.numberUsed.includes( i ) ) && ++i )
         
