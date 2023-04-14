@@ -81,7 +81,7 @@ const OpcNumber =()=>{
  
                     <div class="div__yJgoV">
                         <button type="button" class="button__Gzm4F after btn-FdvhPbmQRiacIRG" data-action="btnLess" ><i class="fa-solid fa-caret-left"></i></button>
-                        <input type="text" class="input__bHvkr" name="limitRange" value="${ DataNumber.limitRange || 1000 }" placeholder="limite de rango" >
+                        <input type="number" class="input__bHvkr" name="limitRange" value="${ DataNumber.limitRange || 1000 }" placeholder="limite de rango" >
                         <button type="button" class="button__Gzm4F after btn-FdvhPbmQRiacIRG" data-action="btnAdd"  ><i class="fa-solid fa-caret-right"></i></button>
                     </div>
 
@@ -140,7 +140,7 @@ const OpcNumber =()=>{
 
                     <div class="div__yJgoV">
                         <button type="button" class="button__Gzm4F after btn-FdvhPbmQRiacIRG" data-action="btnLess" ><i class="fa-solid fa-caret-left"></i></button>
-                        <input type="text" class="input__bHvkr" name="limitCasillas" value="${ DataNumber.limitCasillas || 10 }" placeholder="limite de casillas" >
+                        <input type="number" class="input__bHvkr" name="limitCasillas" value="${ DataNumber.limitCasillas || 10 }" placeholder="limite de casillas" >
                         <button type="button" class="button__Gzm4F after btn-FdvhPbmQRiacIRG" data-action="btnAdd"  ><i class="fa-solid fa-caret-right"></i></button>
                     </div>
                     <button type="submit" class="button__Gzm4F" ><i class="fa-solid fa-check"></i></button>
