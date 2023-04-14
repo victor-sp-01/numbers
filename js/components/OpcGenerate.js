@@ -77,7 +77,7 @@ const OpcGenerate =()=>{
  
                     <div class="div__yJgoV">
                         <button type="button" class="button__Gzm4F after btn-FdvhPbmQRiacIRG" data-action="btnLess" ><i class="fa-solid fa-caret-left"></i></button>
-                        <input type="text" class="input__bHvkr" name="limitRangeGenerate" value="${ DataNumber.limitRangeGenerate || 1000 }" placeholder="limite de rango" >
+                        <input type="number" class="input__bHvkr" name="limitRangeGenerate" value="${ DataNumber.limitRangeGenerate || 1000 }" placeholder="limite de rango" >
                         <button type="button" class="button__Gzm4F after btn-FdvhPbmQRiacIRG" data-action="btnAdd"  ><i class="fa-solid fa-caret-right"></i></button>
                     </div>
 
