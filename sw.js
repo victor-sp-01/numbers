@@ -1,11 +1,11 @@
 importScripts('js/helpers/sw-utils.js')
 
-const CACHE_STATIC_NAME     = 'static-v15'
+const CACHE_STATIC_NAME     = 'static-v2023.04.16.18.18'
 const CACHE_DYNAMIC_NAME    = 'dynamic-v1'
 const CACHE_INMUTABLE_NAME  = 'inmutable-v1'
 
 const APP_SHELL = [
-    //'/',
+    '/',
     'index.html',
     'css/style.css',
     'css/styles.css',
@@ -63,6 +63,7 @@ self.addEventListener( 'activate', e => {
 })
 
 self.addEventListener( 'fetch', e =>{
+    
     const respuesta = async ()=>{
         const cache = await caches.match( e.request )
 
