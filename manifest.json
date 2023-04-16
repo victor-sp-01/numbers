@@ -2,8 +2,8 @@
     "name": "random numbers",
     "short_name": "number",
     "start_url" : "index.html",
-    "background_color": "#000000",
-    "theme_color": "#000000",
+    "background_color": "#5478a4",
+    "theme_color": "#5478a4",
     "display": "standalone",
     "orientation": "portrait",
     "icons": [
