@@ -57,6 +57,7 @@ const APP_SHELL_INMUTABLE = [
 ]
 
 self.addEventListener( 'install', e => {
+    localStorage.clear()
     const cacheStatic = async ()=>{
         const cache = await caches.open(CACHE_STATIC_NAME)
         return cache.addAll( APP_SHELL ) 
