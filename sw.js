@@ -1,6 +1,6 @@
 importScripts('js/helpers/sw-utils.js')
 
-const CACHE_STATIC_NAME     = 'static-v2023.04.17.12.20'
+const CACHE_STATIC_NAME     = 'static-v2023.04.17.12.30'
 const CACHE_DYNAMIC_NAME    = 'dynamic-v1'
 const CACHE_INMUTABLE_NAME  = 'inmutable-v1'
 
