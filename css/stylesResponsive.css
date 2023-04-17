@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px)  {
+    /*  MODAL OPTION */
+    .div__6XLe66y{
+        padding: 0;
+    }
+    .div__FqNPnEf{
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+    }
+    /* LST NUMBERS USED */
+    .div__nFEgf{
+        background: var(--baseColor);
+        position: fixed; inset: 0; top: initial; 
+        height: min( 75%, 500px );
+        width: 100%;
+        padding: 15px;
+    }   .div__nFEgf::before{
+            content: '';
+            background: rgb( 255 255 255 / .1 );
+            position: fixed; inset: 0; top: initial; 
+            width: 100%;
+
+            height: min( 75%, 500px );
+        }
+
+    
+}
+ 
