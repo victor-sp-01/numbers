@@ -7,7 +7,7 @@ const Setting =()=>{
     createLocalStorage( 'Setting', JSON.stringify({
         color   : '#5478a4',
         colors  : ['#f5f8de', '#c2a878', '#70798c', '#96adc8', '#ff6b6c', '#85baa1', '#88d9e6'],
-        photo   : '1',
+        photo   : '',
         photos  : [ ...Array( 23 ).keys() ].map( i => (`${ ++i }`) ),
         noteOrder : 'month'
     })) 
